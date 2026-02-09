@@ -1,5 +1,5 @@
 {
-  "name": "redis-rate-limiter",
+  "name": "redis-lua-rate-limiter",
   "version": "1.0.0",
   "description": "Distributed token-bucket rate limiter using Redis Lua scripts for Node.js/Express",
   "main": "dist/index.js",
