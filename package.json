@@ -1,11 +1,13 @@
 {
   "name": "redis-lua-rate-limiter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Distributed token-bucket rate limiter using Redis Lua scripts for Node.js/Express",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "lua"],
-
+  "files": [
+    "dist",
+    "lua"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "ts-node-dev example/express-app.ts"
@@ -21,7 +23,6 @@
   "author": "shubhankar kumar singh",
   "license": "MIT",
   "dependencies": {
-    
     "ioredis": "^5.9.2"
   },
   "peerDependencies": {
